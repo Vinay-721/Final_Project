@@ -125,6 +125,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="HomePage_P.aspx" />
     <Content Include="Home_page.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -213,6 +214,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage_P.aspx.cs">
+      <DependentUpon>HomePage_P.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomePage_P.aspx.designer.cs">
+      <DependentUpon>HomePage_P.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home_page.aspx.cs">
       <DependentUpon>Home_page.aspx</DependentUpon>

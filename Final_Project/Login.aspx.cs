@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -36,7 +37,11 @@ namespace Final_Project
                 int i = cn.GetData("Select count(*) from tblinsured where insuredid='" + TextBox1.Text + "' and dob='" + TextBox2.Text + "'");
                 if (i == 1)
                 {
-                    Response.Redirect("Admin_Dashboard.aspx");
+                    sql_ad ad = new sql_ad();
+                    DataSet ds = ad.GetData("Select name from tblInsured where insuredid=" + TextBox1.Text);
+                    Session["username"] = ds.Tables[0].Rows[0][0].ToString();
+                    Session["id"] = TextBox1.Text;
+                    Response.Redirect("User_Dashboard.aspx");
                 }
             }
         

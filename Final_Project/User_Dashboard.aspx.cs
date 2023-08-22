@@ -11,12 +11,24 @@ namespace Final_Project
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["username"]!=null)
+            Label2.Text = Session["username"].ToString();
 
         }
 
         protected void LinkButton2_Click(object sender, EventArgs e)
         {
             Response.Redirect("Agent_Visit.aspx");
+        }
+
+        protected void LinkButton3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("FeedBack.aspx");
+        }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Edit_Profile.aspx");
         }
     }
 }

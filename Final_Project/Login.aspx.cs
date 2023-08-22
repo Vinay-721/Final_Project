@@ -13,5 +13,33 @@ namespace Final_Project
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            login();
+        }
+
+        private void login() {
+
+
+            sql_con cn = new sql_con();
+            if (RadioButtonList1.SelectedIndex == 0)
+            {
+                int i = cn.GetData("Select count(*) from tblsuperadmin where userid='" + TextBox1.Text + "' and password='" + TextBox2.Text + "'");
+                Response.Write(i);
+                if (i == 1)
+                {
+                    Response.Redirect("Admin_Dashboard.aspx");
+                }
+            }
+            else {
+                int i = cn.GetData("Select count(*) from tblinsured where insuredid='" + TextBox1.Text + "' and dob='" + TextBox2.Text + "'");
+                if (i == 1)
+                {
+                    Response.Redirect("Admin_Dashboard.aspx");
+                }
+            }
+        
+        }
     }
 }

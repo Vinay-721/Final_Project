@@ -63,7 +63,7 @@
             <asp:Label ID="Label1" runat="server" Text="LOGIN"></asp:Label>
 
         </div>
-        <br />
+
 
         <div id="div2">
 
@@ -93,16 +93,18 @@
             <asp:Label ID="Label2" runat="server" Text="USERNAME" Font-Bold="True" Font-Size="Large" ForeColor="White"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="*Required" ForeColor="Red"></asp:RequiredFieldValidator>
             <br />
             <br />
             <br />
             <asp:Label ID="Label3" runat="server" Text="PASSWORD" Font-Bold="True" Font-Size="Large" ForeColor="White"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox2" ErrorMessage="*Required" ForeColor="Red"></asp:RequiredFieldValidator>
             <br />
             <br />
             <br />
-            <asp:Button ID="Button1" runat="server" Text="ENTER" BackColor="CornflowerBlue" Font-Bold="True" Font-Size="Large" ForeColor="White" />
+            <asp:Button ID="Button1" runat="server" Text="ENTER" BackColor="CornflowerBlue" Font-Bold="True" Font-Size="Large" ForeColor="White" OnClick="Button1_Click" />
 
 
 

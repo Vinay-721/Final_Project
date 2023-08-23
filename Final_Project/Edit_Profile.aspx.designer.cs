@@ -11,7 +11,7 @@ namespace Final_Project
 {
 
 
-    public partial class Home_page
+    public partial class Edit_Profile
     {
 
         /// <summary>

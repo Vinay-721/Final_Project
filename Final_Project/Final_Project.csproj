@@ -102,11 +102,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
+    <Content Include="AddAndViewProduct.aspx" />
     <Content Include="Admin_Dashboard.aspx" />
+    <Content Include="Agent_Visit.aspx" />
     <Content Include="angular-animate.js" />
     <Content Include="angular.js" />
-    <Content Include="Contact.aspx" />
+    <Content Include="call-removebg-preview.png" />
+    <Content Include="call.jpg" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -125,12 +127,25 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="digicert.png" />
+    <Content Include="Edit_Profile.aspx" />
+    <Content Include="entrust.png" />
+    <Content Include="facebook.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="FeedBack.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="HomeDiv1_2.jpg" />
+    <Content Include="homeDive1.jpg" />
+    <Content Include="homeDive11.jpg" />
     <Content Include="HomePage_P.aspx" />
+    <Content Include="Home_div1.jpg" />
     <Content Include="Home_page.aspx" />
+    <Content Include="HVS_logo-removebg-preview.png" />
+    <Content Include="HVS_logo.jpg" />
+    <Content Include="HVS_logo.png" />
+    <Content Include="insurancedb.sql" />
     <Content Include="Login.aspx" />
+    <Content Include="Register_Page.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -186,14 +201,24 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="SearchAndManages.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="superbrands-footer-logo.png" />
+    <Content Include="User_Dashboard.aspx" />
     <Content Include="ViewSwitcher.ascx" />
+    <Content Include="View_Agent_visit.aspx" />
     <Content Include="View_Feedback.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddAndViewProduct.aspx.cs">
+      <DependentUpon>AddAndViewProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddAndViewProduct.aspx.designer.cs">
+      <DependentUpon>AddAndViewProduct.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin_Dashboard.aspx.cs">
       <DependentUpon>Admin_Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -201,22 +226,14 @@
     <Compile Include="Admin_Dashboard.aspx.designer.cs">
       <DependentUpon>Admin_Dashboard.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Agent_Visit.aspx.cs">
+      <DependentUpon>Agent_Visit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Agent_Visit.aspx.designer.cs">
+      <DependentUpon>Agent_Visit.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Dataconn.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -224,6 +241,12 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Profile.aspx.cs">
+      <DependentUpon>Edit_Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Profile.aspx.designer.cs">
+      <DependentUpon>Edit_Profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="FeedBack.aspx.cs">
       <DependentUpon>FeedBack.aspx</DependentUpon>
@@ -257,6 +280,18 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register_Page.aspx.cs">
+      <DependentUpon>Register_Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register_Page.aspx.designer.cs">
+      <DependentUpon>Register_Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchAndManages.aspx.cs">
+      <DependentUpon>SearchAndManages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchAndManages.aspx.designer.cs">
+      <DependentUpon>SearchAndManages.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -271,12 +306,24 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="User_Dashboard.aspx.cs">
+      <DependentUpon>User_Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_Dashboard.aspx.designer.cs">
+      <DependentUpon>User_Dashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="View_Agent_visit.aspx.cs">
+      <DependentUpon>View_Agent_visit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View_Agent_visit.aspx.designer.cs">
+      <DependentUpon>View_Agent_visit.aspx</DependentUpon>
     </Compile>
     <Compile Include="View_Feedback.aspx.cs">
       <DependentUpon>View_Feedback.aspx</DependentUpon>

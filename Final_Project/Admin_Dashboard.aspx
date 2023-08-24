@@ -8,7 +8,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div style="text-align:center">
 
             <asp:Label ID="Label1" runat="server" Text="Welcome on Admin Dashboard "></asp:Label>
 
@@ -20,7 +20,7 @@
 
         </div>
         <br/>
-    <div>
+    <div style="text-align:center">
         <asp:LinkButton ID="LinkButton1" runat="server">Register Page</asp:LinkButton>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:LinkButton ID="LinkButton2" runat="server">Search And Manages </asp:LinkButton>

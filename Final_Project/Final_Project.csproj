@@ -131,6 +131,7 @@
     <Content Include="Edit_Profile.aspx" />
     <Content Include="entrust.png" />
     <Content Include="facebook.jpg" />
+    <Content Include="Edit_Profile.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="FeedBack.aspx" />
     <Content Include="Global.asax" />
@@ -138,13 +139,20 @@
     <Content Include="homeDive1.jpg" />
     <Content Include="homeDive11.jpg" />
     <Content Include="HomePage_P.aspx" />
+    <Content Include="images\bc.jpg" />
+    <Content Include="images\bc2.jpg" />
+    <Content Include="images\bc3.jpg" />
+    <Content Include="insurancedb.sql" />
     <Content Include="Home_div1.jpg" />
-    <Content Include="Home_page.aspx" />
     <Content Include="HVS_logo-removebg-preview.png" />
     <Content Include="HVS_logo.jpg" />
     <Content Include="HVS_logo.png" />
     <Content Include="insurancedb.sql" />
     <Content Include="Login.aspx" />
+    <Content Include="Home_div1.jpg" />
+    <Content Include="HVS_logo-removebg-preview.png" />
+    <Content Include="HVS_logo.jpg" />
+    <Content Include="HVS_logo.png" />
     <Content Include="Register_Page.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -201,6 +209,7 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="User_Dashboard.aspx" />
     <Content Include="SearchAndManages.aspx" />
     <Content Include="Site.Master" />
     <Content Include="superbrands-footer-logo.png" />
@@ -210,7 +219,6 @@
     <Content Include="View_Feedback.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
-    <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddAndViewProduct.aspx.cs">
@@ -268,13 +276,6 @@
     <Compile Include="HomePage_P.aspx.designer.cs">
       <DependentUpon>HomePage_P.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Home_page.aspx.cs">
-      <DependentUpon>Home_page.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Home_page.aspx.designer.cs">
-      <DependentUpon>Home_page.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -304,12 +305,12 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
-    <Compile Include="Site.Mobile.Master.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    <Compile Include="User_Dashboard.aspx.cs">
+      <DependentUpon>User_Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Site.Mobile.Master.designer.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    <Compile Include="User_Dashboard.aspx.designer.cs">
+      <DependentUpon>User_Dashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="User_Dashboard.aspx.cs">
       <DependentUpon>User_Dashboard.aspx</DependentUpon>

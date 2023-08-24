@@ -103,6 +103,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AddAndViewProduct.aspx" />
+    <Content Include="AddProductAndView_V.aspx" />
     <Content Include="Admin_Dashboard.aspx" />
     <Content Include="Agent_Visit.aspx" />
     <Content Include="angular-animate.js" />
@@ -142,6 +143,10 @@
     <Content Include="images\bc.jpg" />
     <Content Include="images\bc2.jpg" />
     <Content Include="images\bc3.jpg" />
+    <Content Include="images\huihihi.jpg" />
+    <Content Include="images\huihihi2.jpg" />
+    <Content Include="images\huihihi3.jpg" />
+    <Content Include="images\huihihi4.jpg" />
     <Content Include="insurancedb.sql" />
     <Content Include="Home_div1.jpg" />
     <Content Include="HVS_logo-removebg-preview.png" />
@@ -228,6 +233,13 @@
     </Compile>
     <Compile Include="AddAndViewProduct.aspx.designer.cs">
       <DependentUpon>AddAndViewProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddProductAndView_V.aspx.cs">
+      <DependentUpon>AddProductAndView_V.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddProductAndView_V.aspx.designer.cs">
+      <DependentUpon>AddProductAndView_V.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin_Dashboard.aspx.cs">
       <DependentUpon>Admin_Dashboard.aspx</DependentUpon>

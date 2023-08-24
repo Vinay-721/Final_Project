@@ -19,7 +19,7 @@ namespace Final_Project
         {
 
             sql_ad b = new sql_ad();
-            DataSet ds = b.GetData("Select * from "+DropDownList1.Text+" where name = '"+TextBox1.Text+"'");
+            DataSet ds = b.GetData("Select * from "+DropDownList1.Text+" where insuredid = "+TextBox1.Text+"");
             GridView1.DataSource = ds.Tables[0];
             GridView1.DataBind();
         }

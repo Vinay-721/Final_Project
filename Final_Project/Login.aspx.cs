@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
 
 namespace Final_Project
 {
@@ -22,19 +23,23 @@ namespace Final_Project
 
         private void login() {
 
-
-            sql_con cn = new sql_con();
+            SqlConnection con = new SqlConnection("Initial catalog=insurance; integrated security=true; server=VDILEWVPNTH510");
+            con.Open();
+           
+           
             if (RadioButtonList1.SelectedIndex == 0)
             {
-                int i = cn.GetData("Select count(*) from tblsuperadmin where userid='" + TextBox1.Text + "' and password='" + TextBox2.Text + "'");
-                Response.Write(i);
+                SqlCommand cmd = new SqlCommand("Select count(*) from tblsuperadmin where userid='" + TextBox1.Text + "' and password='" + TextBox2.Text + "'", con);
+                int i = Convert.ToInt32(cmd.ExecuteScalar());
+                 Response.Write(i);
                 if (i == 1)
                 {
                     Response.Redirect("Admin_Dashboard.aspx");
                 }
             }
             else {
-                int i = cn.GetData("Select count(*) from tblinsured where insuredid='" + TextBox1.Text + "' and dob='" + TextBox2.Text + "'");
+                SqlCommand cmd = new SqlCommand("Select count(*) from tblinsured where insuredid='" + TextBox1.Text + "' and dob='" + TextBox2.Text + "'",con);
+                int i = Convert.ToInt32(cmd.ExecuteScalar());
                 if (i == 1)
                 {
                     sql_ad ad = new sql_ad();

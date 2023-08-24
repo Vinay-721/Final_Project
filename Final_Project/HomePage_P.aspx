@@ -61,7 +61,8 @@
 
              <center>   <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Names="Bahnschrift Light" Font-Size="X-Large" Text="Home Insurance" ForeColor="#FF9900"></asp:Label> </center> 
                 <p style="height: 165px; font-size: 16px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-style: normal; font-variant: normal; color: #800080; background-color: #00FFFF;">
-                    If you financed your home, your lender will usually require coverage to protect their interest in your property. This way, if your home is damaged or destroyed, you have funds to rebuild and won’t walk away from your mortgage.
+                    If you financed your home, your lender will usually require coverage to protect their interest in your property. 
+                    This way, if your home is damaged or destroyed, you have funds to rebuild and won’t walk away from your mortgage.
                 </p>
                
 
@@ -69,15 +70,19 @@
              <div class="col-md-3" style=" width:5%; height: 224px">
                 
             </div>
-             <div class="col-md-3" style=" width:30%; height: 224px;background-color:khaki;">
+             <div class="col-md-3" style=" width:30%; height: 224px;background-color:khaki; font-family: 'Arial Black'; color: #800080; font-size: 15px;">
                 <br /> <center>   <asp:Label ID="Label5" runat="server" Font-Bold="True" Font-Names="Bahnschrift Light" Font-Size="X-Large" Text="Umbrella Insurance" ForeColor="#FF9900"></asp:Label> </center> 
-            
+            <p>
+                Umbrella insurance can provide additional liability insurance if the unexpected happens and you’re liable. 
+                For example, let’s say someone sues you for $500,000 of medical bills after tripping on your sidewalk and injuring their back. 
+                If your home insurance liability limit only goes up to $300,000, you’re responsible for the remaining $200,000. Umbrella insurance would cover this extra cost.
+            </p>
              </div>
              <div class="col-md-3" style=" width:5%; height: 224px;">
                 
             </div>
              <div class="col-md-3" style=" width:30%; height: 224px; background-color:pink;">
-                 
+                  <center>   <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Names="Bahnschrift Light" Font-Size="X-Large" Text="Umbrella Insurance" ForeColor="#FF9900"></asp:Label> </center>
             </div>
         </div>
         <div class="Row"  style="height: 243px ; width:100%" >

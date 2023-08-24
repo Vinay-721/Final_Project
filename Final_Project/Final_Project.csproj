@@ -129,6 +129,9 @@
     <Content Include="FeedBack.aspx" />
     <Content Include="Global.asax" />
     <Content Include="HomePage_P.aspx" />
+    <Content Include="images\bc.jpg" />
+    <Content Include="images\bc2.jpg" />
+    <Content Include="images\bc3.jpg" />
     <Content Include="insurancedb.sql" />
     <Content Include="Login.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />

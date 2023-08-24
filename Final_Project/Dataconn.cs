@@ -15,10 +15,11 @@ namespace Final_Project
             SqlConnection con = new SqlConnection("Initial catalog=insurance; integrated security=true; server=VDILEWVPNTH510");
             con.Open();
             SqlCommand cmd = new SqlCommand(s, con);
-            int i = Convert.ToInt32(cmd.ExecuteScalar());
+            int i = (cmd.ExecuteNonQuery());
             return i;
         }
 
+    
     }
     public class sql_ad
     {

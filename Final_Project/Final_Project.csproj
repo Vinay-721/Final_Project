@@ -142,6 +142,10 @@
     <Content Include="images\bc.jpg" />
     <Content Include="images\bc2.jpg" />
     <Content Include="images\bc3.jpg" />
+    <Content Include="images\huihihi.jpg" />
+    <Content Include="images\huihihi2.jpg" />
+    <Content Include="images\huihihi3.jpg" />
+    <Content Include="images\huihihi4.jpg" />
     <Content Include="insurancedb.sql" />
     <Content Include="Home_div1.jpg" />
     <Content Include="HVS_logo-removebg-preview.png" />

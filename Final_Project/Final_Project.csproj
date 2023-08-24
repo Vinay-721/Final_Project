@@ -105,7 +105,6 @@
     <Content Include="AddAndViewProduct.aspx" />
     <Content Include="Admin_Dashboard.aspx" />
     <Content Include="Agent_Visit.aspx" />
-    <Content Include="About.aspx" />
     <Content Include="angular-animate.js" />
     <Content Include="angular.js" />
     <Content Include="call-removebg-preview.png" />
@@ -145,14 +144,12 @@
     <Content Include="images\bc3.jpg" />
     <Content Include="insurancedb.sql" />
     <Content Include="Home_div1.jpg" />
-    <Content Include="Home_page.aspx" />
     <Content Include="HVS_logo-removebg-preview.png" />
     <Content Include="HVS_logo.jpg" />
     <Content Include="HVS_logo.png" />
     <Content Include="insurancedb.sql" />
     <Content Include="Login.aspx" />
     <Content Include="Home_div1.jpg" />
-    <Content Include="Home_page.aspx" />
     <Content Include="HVS_logo-removebg-preview.png" />
     <Content Include="HVS_logo.jpg" />
     <Content Include="HVS_logo.png" />
@@ -226,6 +223,7 @@
   <ItemGroup>
     <Compile Include="AddAndViewProduct.aspx.cs">
       <DependentUpon>AddAndViewProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AddAndViewProduct.aspx.designer.cs">
       <DependentUpon>AddAndViewProduct.aspx</DependentUpon>
@@ -288,12 +286,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register_Page.aspx.cs">
       <DependentUpon>Register_Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Register_Page.aspx.designer.cs">
       <DependentUpon>Register_Page.aspx</DependentUpon>
     </Compile>
     <Compile Include="SearchAndManages.aspx.cs">
       <DependentUpon>SearchAndManages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="SearchAndManages.aspx.designer.cs">
       <DependentUpon>SearchAndManages.aspx</DependentUpon>
@@ -305,8 +305,6 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
-    <Compile Include="Site.Mobile.Master.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
     <Compile Include="User_Dashboard.aspx.cs">
       <DependentUpon>User_Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -329,6 +327,7 @@
     </Compile>
     <Compile Include="View_Agent_visit.aspx.cs">
       <DependentUpon>View_Agent_visit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="View_Agent_visit.aspx.designer.cs">
       <DependentUpon>View_Agent_visit.aspx</DependentUpon>

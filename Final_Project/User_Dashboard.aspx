@@ -10,6 +10,8 @@
     <form id="form1" runat="server">
         <header style="text-align:center;padding:10px">
 
+            <br />
+
             <asp:Label ID="Label1" runat="server" Text="WELCOME TO USER DASHBOARD,"></asp:Label>
             &nbsp;&nbsp;&nbsp;
             <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
@@ -29,11 +31,17 @@
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">Feedback</asp:LinkButton>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:LinkButton ID="LinkButton4" runat="server">Medical History</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">Medical History</asp:LinkButton>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:LinkButton ID="LinkButton5" runat="server">Policy</asp:LinkButton>
+            <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click">Policy</asp:LinkButton>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:LinkButton ID="LinkButton6" runat="server">Policy Max</asp:LinkButton>
+
+
+
+            <br />
+            <br />
+            <br />
 
 
 

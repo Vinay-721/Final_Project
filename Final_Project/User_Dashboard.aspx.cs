@@ -30,5 +30,17 @@ namespace Final_Project
         {
             Response.Redirect("Edit_Profile.aspx");
         }
+
+        protected void LinkButton4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Medical_History.aspx");
+        }
+
+        protected void LinkButton5_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Policy.aspx");
+        }
+
+      
     }
 }

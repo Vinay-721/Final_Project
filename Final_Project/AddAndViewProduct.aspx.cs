@@ -20,7 +20,7 @@ namespace Final_Project
             Label3.Visible = true;
             Label4.Visible = true;
             Button3.Visible = true;
-            TextBox1.Visible = true;
+            //TextBox1.Visible = true;
             TextBox2.Visible = true;
         }
 

@@ -29,7 +29,7 @@ namespace Final_Project
            
             if (RadioButtonList1.SelectedIndex == 0)
             {
-                SqlCommand cmd = new SqlCommand("Select count(*) from tblsuperadmin where userid='" + TextBox1.Text + "' and password='" + TextBox2.Text + "'", con);
+                SqlCommand cmd = new SqlCommand("Select count(*) from tblsuperadmin where userid ='" + TextBox1.Text + "' and password ='" + TextBox2.Text + "'", con);
                 int i = Convert.ToInt32(cmd.ExecuteScalar());
                  Response.Write(i);
                 if (i == 1)
@@ -38,7 +38,7 @@ namespace Final_Project
                 }
             }
             else {
-                SqlCommand cmd = new SqlCommand("Select count(*) from tblinsured where insuredid='" + TextBox1.Text + "' and dob='" + TextBox2.Text + "'",con);
+                SqlCommand cmd = new SqlCommand("Select count(*) from tblinsured where insuredid ='" + TextBox1.Text + "' and dob ='" + TextBox2.Text + "'",con);
                 int i = Convert.ToInt32(cmd.ExecuteScalar());
                 if (i == 1)
                 {

@@ -91,8 +91,9 @@
                         <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" PostBackUrl="~/User_Dashboard.aspx" Text="BACK" />
 
 
+            <asp:Label ID="Label1" runat="server"></asp:Label>
 
-                    </div>
+        </div>
                 </div>
             </center>
         </div>

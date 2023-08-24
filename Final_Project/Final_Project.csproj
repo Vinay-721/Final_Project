@@ -299,8 +299,6 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
-    <Compile Include="Site.Mobile.Master.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
     <Compile Include="User_Dashboard.aspx.cs">
       <DependentUpon>User_Dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

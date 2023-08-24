@@ -34,9 +34,9 @@
 
             <asp:DropDownList ID="DropDownList1" runat="server" Visible="False">
                 <asp:ListItem Value="tblInsured">Insurance Detail</asp:ListItem>
-                <asp:ListItem>Medical History</asp:ListItem>
-                <asp:ListItem>Policy Details</asp:ListItem>
-                <asp:ListItem>Policy Maximum</asp:ListItem>
+                <asp:ListItem Value="tblMedicalhistory">Medical History</asp:ListItem>
+                <asp:ListItem Value="tblPolicyDetails">Policy Details</asp:ListItem>
+                <asp:ListItem Value="Pmax2">Policy Maximum</asp:ListItem>
               
             </asp:DropDownList>
 

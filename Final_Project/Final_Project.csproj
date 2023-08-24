@@ -313,6 +313,7 @@
     </Compile>
     <Compile Include="User_Dashboard.aspx.cs">
       <DependentUpon>User_Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="User_Dashboard.aspx.designer.cs">
       <DependentUpon>User_Dashboard.aspx</DependentUpon>

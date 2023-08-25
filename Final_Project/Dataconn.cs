@@ -12,7 +12,7 @@ namespace Final_Project
     {
         public int GetData(string s)
         {
-            SqlConnection con = new SqlConnection("Initial catalog=insurance; integrated security=true; server=VDILEWVPNTH510");
+            SqlConnection con = new SqlConnection("Initial catalog=insurancedb; integrated security=true; server=VDILEWVPNTH515");
             con.Open();
             SqlCommand cmd = new SqlCommand(s, con);
             int i = (cmd.ExecuteNonQuery());
@@ -25,7 +25,7 @@ namespace Final_Project
     {
         public DataSet GetData(string s)
         {
-            SqlConnection con = new SqlConnection("Initial catalog=insurance; integrated security=true; server=VDILEWVPNTH510");
+            SqlConnection con = new SqlConnection("Initial catalog=insurancedb; integrated security=true; server=VDILEWVPNTH515");
             SqlDataAdapter da = new SqlDataAdapter(s, con);
             DataSet ds = new DataSet();
             da.Fill(ds);

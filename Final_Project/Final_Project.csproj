@@ -158,6 +158,8 @@
     <Content Include="HVS_logo-removebg-preview.png" />
     <Content Include="HVS_logo.jpg" />
     <Content Include="HVS_logo.png" />
+    <Content Include="Medical_History.aspx" />
+    <Content Include="Policy.aspx" />
     <Content Include="Register_Page.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -294,6 +296,20 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Medical_History.aspx.cs">
+      <DependentUpon>Medical_History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Medical_History.aspx.designer.cs">
+      <DependentUpon>Medical_History.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Policy.aspx.cs">
+      <DependentUpon>Policy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Policy.aspx.designer.cs">
+      <DependentUpon>Policy.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register_Page.aspx.cs">

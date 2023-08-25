@@ -137,9 +137,9 @@
             <br />
             <br />
             <br />
-            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" BackColor="#999999" Font-Bold="True" Font-Size="Medium" ForeColor="Black" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Back" PostBackUrl="~/User_Dashboard.aspx" />
+            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Back" PostBackUrl="~/User_Dashboard.aspx" BackColor="#999999" Font-Bold="True" Font-Size="Medium" ForeColor="Black" />
             <br />
         </div>
         </div>

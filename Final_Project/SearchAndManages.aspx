@@ -28,7 +28,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body  style="text-align:center">
     <form id="form1" runat="server">
          <div style="height: 511px; background-image: url(images//huihihi4.jpg);">
             <asp:Image ID="Image1" runat="server" Height="73px" Width="176px" ImageUrl="~/HVS_logo-removebg-preview.png" />
@@ -84,9 +84,11 @@
         </div>
         <br />
         <div>
+            <center>
 
             <asp:GridView ID="GridView1" runat="server">
             </asp:GridView>
+                </center>
 
         </div>
         <br />

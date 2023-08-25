@@ -43,15 +43,12 @@
         <br />
             <br />
             <br />
-        <div>
-            Welcome on Agent Visit Page
-        </div>
-        <br />
-        <br />
-        <br />
-        <div>
+        <div>       
+            <center>
+               <h1>  Welcome on Agent Visit Page </h1>
             <asp:GridView ID="GridView1" runat="server" style="margin-left:500px;">
             </asp:GridView>
+                </center>
         </div>
         <br />
         <br />

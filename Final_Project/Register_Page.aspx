@@ -52,7 +52,7 @@
         <div style="text-align:center">
             <asp:Label ID="Label2" runat="server" Text="Name"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-            <asp:TextBox ID="TextBox1" runat="server" Height="22px"></asp:TextBox>
+            <asp:TextBox ID="TextBox1" runat="server" Height="22px" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
             &nbsp;&nbsp;
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="* Required" ForeColor="#CC0000"></asp:RequiredFieldValidator>
             <br />

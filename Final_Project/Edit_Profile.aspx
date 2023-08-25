@@ -132,7 +132,7 @@
 
 
 
-          <footer id="footer">
+          <div id="footer">
 <br />
 
 <div class="col-md-1" id="abc" style=" padding:15px; width:35%; height: 224px;">
@@ -175,7 +175,7 @@
 <asp:Image ID="superbrands" runat="server" ImageUrl="~/superbrands-footer-logo.png" />
 </div>
 
-</footer>
+</div>
       
        
         

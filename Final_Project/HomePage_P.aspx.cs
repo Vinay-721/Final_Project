@@ -13,5 +13,10 @@ namespace Final_Project
         {
 
         }
+
+        protected void RegistrationButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Register_Page.aspx");
+        }
     }
 }

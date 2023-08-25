@@ -43,9 +43,13 @@
         <br />
             <br />
             <br />
-        <div>       
-            <center>
-               <h1>  Welcome on Agent Visit Page </h1>
+        <div>
+            <asp:Label ID="Label4" runat="server" BackColor="White" Font-Bold="True" Font-Size="XX-Large" ForeColor="Black" Text="Welcome on Agent Visit Page "></asp:Label>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div style="text-align: center; margin-left: 300px; margin-right: 300px; border-radius: 30px 30px 30px 30px; background-color: #999999; box-shadow: 5px 5px 8px black;">
             <asp:GridView ID="GridView1" runat="server" style="margin-left:500px;">
             </asp:GridView>
                 </center>

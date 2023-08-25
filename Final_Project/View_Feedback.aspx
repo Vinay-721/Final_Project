@@ -43,6 +43,7 @@
             <br />
             <br />
         <div style="text-align:center;  margin-left: 300px; margin-right: 300px; border-radius: 30px 30px 30px 30px; background-color: #999999; box-shadow: 5px 5px 8px black;">
+            <br />
             <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" Text="Welcome on the View Feedback Page "></asp:Label>
             <br />
             <br />
@@ -54,9 +55,6 @@
             <br />
         </div>
 
-         <div id="footer">
-            <br />
-        </div>
            <br />
         <br />
         <br />

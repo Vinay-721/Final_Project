@@ -52,22 +52,7 @@ namespace Final_Project
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            TextBox1.Text = "";
-            RadioButton1.Checked = false;
-            RadioButton2.Checked = false;
-            TextBox3.Text = "";
-            TextBox4.Text = "";
-            TextBox5.Text = "";
-            TextBox6.Text = "";
-            TextBox7.Text = "";
-            TextBox8.Text = "";
-            TextBox9.Text = "";
-            TextBox10.Text = "";
-            TextBox11.Text = "";
-            TextBox12.Text = "";
-            TextBox13.Text = "";
-
-
+           
 
         }
 

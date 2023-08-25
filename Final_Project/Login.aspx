@@ -11,6 +11,7 @@
         #footer {
             height: 300px;
             width: auto;
+           
             border: 2px solid black;
             background-color: black;
             color:white;
@@ -128,7 +129,7 @@
          <br />
             <br />
             <br />
-         <footer id="footer">
+         <footer id="footer" >
 <br />
 
 <div class="col-md-1" id="abc" style=" padding:15px; width:35%; height: 224px;">

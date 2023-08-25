@@ -121,9 +121,9 @@
                         <br />
                         <br />
                         <br />
-                        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="UPDATE" />
+                        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="UPDATE" BackColor="LightGray" Font-Bold="True" ForeColor="Black" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" PostBackUrl="~/User_Dashboard.aspx" Text="BACK" />
+                        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" PostBackUrl="~/User_Dashboard.aspx" Text="BACK" Font-Bold="True" ForeColor="Black" />
 
         </div>
                 </div>
@@ -132,7 +132,7 @@
 
 
 
-          <div id="footer">
+          <div id="footer" style="margin-top:760px;">
 <br />
 
 <div class="col-md-1" id="abc" style=" padding:15px; width:35%; height: 224px;">

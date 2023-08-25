@@ -137,7 +137,7 @@
             <br />
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" BackColor="#999999" Font-Bold="True" Font-Size="Medium" ForeColor="Black" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button2" runat="server" Text="Cancel" OnClick="Button2_Click" BackColor="#999999" Font-Bold="True" Font-Size="Medium" ForeColor="Black" />
+            <asp:Button ID="Button2" runat="server" Text="Cancel" OnClick="Button2_Click" BackColor="#999999" Font-Bold="True" Font-Size="Medium" ForeColor="Black" PostBackUrl="~/Admin_Dashboard.aspx" />
             <br />
             <br />
         </div>

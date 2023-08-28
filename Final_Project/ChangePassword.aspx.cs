@@ -13,5 +13,10 @@ namespace Final_Project
         {
 
         }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

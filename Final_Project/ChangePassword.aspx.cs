@@ -14,9 +14,17 @@ namespace Final_Project
 
         }
 
-        protected void LinkButton1_Click(object sender, EventArgs e)
+        protected void TextBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            sql_con b = new sql_con();
+            int i = b.GetData("update tblSuperAdmin set password ='" +TextBox3.Text+"' where userid = '"+TextBox1.Text+"' ");
+
+            Response.Write("<script>alert('Data updated successfully')</script>");
         }
     }
 }

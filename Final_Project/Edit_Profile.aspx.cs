@@ -47,5 +47,10 @@ namespace Final_Project
                 Response.Redirect("Edit_Profile.aspx");
             
         }
+
+        protected void TextBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

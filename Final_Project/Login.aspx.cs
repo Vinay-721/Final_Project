@@ -23,7 +23,7 @@ namespace Final_Project
 
         private void login() {
 
-            SqlConnection con = new SqlConnection("Initial catalog=insurance; integrated security=true; server=VDILEWVPNTH510");
+            SqlConnection con = new SqlConnection("Initial catalog=insurancedb; integrated security=true; server=VDILEWVPNTH515");
             con.Open();
            
            

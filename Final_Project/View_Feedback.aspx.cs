@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -12,6 +13,15 @@ namespace Final_Project
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            sql_ad b = new sql_ad();
+            DataSet ds = b.GetData("Select * from feedback");
+            GridView1.DataSource = ds.Tables[0];
+            GridView1.DataBind();
         }
     }
 }
